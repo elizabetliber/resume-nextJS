@@ -5,8 +5,8 @@ function RightSide() {
         <div className="flex flex-col md:flex-[1_1_50%] flex-[1_1_100%]">
             <div>
                 <h3 className="mb-9 lg:text-4xl sm:text-3xl text-2xl text-gray-500 font-bold">Education</h3>
-                <h4 className="mb-9 lg:text-3xl sm:text-2xl text-xl font-bold text-black tracking-normal">University Name</h4>
-                <div className="sm:text-2xl text-xl font-normal text-gray-500 space-y-5 tracking-normal">
+                <h4 className="mb-9 lg:text-3xl sm:text-2xl text-xl font-bold text-black tracking-wide">University Name</h4>
+                <div className="sm:text-2xl text-xl font-normal text-gray-500 space-y-5 tracking-wide">
                     <p>Degree – Emphasis</p>
                     <p>Minor</p>
                     <p>Years Attended</p>
@@ -14,14 +14,14 @@ function RightSide() {
             </div>
             <div>
                 <h3 className="mt-[80px] mb-7 lg:text-4xl sm:text-3xl text-2xl text-gray-500 font-bold">Achievements</h3>
-                <div className="sm:text-2xl text-xl font-normal text-black space-y-5 tracking-normal">
+                <div className="sm:text-2xl text-xl font-normal text-black space-y-5 tracking-wide">
                     <p>Name something you did like win an award</p>
                     <p>Or maybe a hackathon that you won</p>
                 </div>
             </div>
             <div>
                 <h3 className="mt-[88px] mb-6 lg:text-4xl sm:text-3xl text-2xl text-gray-500 font-bold">Skills</h3>
-                <div className="sm:text-2xl text-xl font-normal text-black space-y-5 tracking-normal">
+                <div className="sm:text-2xl text-xl font-normal text-black space-y-5 tracking-wide">
                     <p>Name something you did like win an award</p>
                     <p>Or maybe a hackathon that you won</p>
                     <p>Or maybe a hackathon that you won</p>
