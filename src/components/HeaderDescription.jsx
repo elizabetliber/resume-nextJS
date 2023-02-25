@@ -11,7 +11,7 @@ function HeaderDescription() {
                         <div className="mx-6">|</div>
                         <a className="cursor-pointer hover:underline">Link to your website</a>
                     </div>
-                    <p className="sm:leading-[2.7rem] leading-[2.3rem] sm:text-2xl text-xl text-gray-400 mt-8 sm:mt-12 font-normal tracking-[0.03em]">
+                    <p className="sm:leading-10 leading-9 sm:text-2xl text-xl text-gray-400 mt-8 sm:mt-12 font-normal tracking-[0.03em]">
                         Summarize who you are. Nulla vel iaculis orci,
                         in sagittis turpis. Suspendisse vehicula tellus felis,
                         a pharetra sapien finibus nec. Quisque quam odio, malesuada ac risus sit amet.
