@@ -3,9 +3,9 @@ import PreviousJob from "@/components/PreviousJob";
 
 function LeftSide() {
     return (
-        <div>
-            <h3 className="mb-9 text-h3 text-middle_gray font-bold">Experience</h3>
-            <div className="space-y-16">
+        <div className="flex flex-col md:flex-[1_1_50%] flex-[1_1_100%]">
+            <h3 className="mb-9 lg:text-4xl sm:text-3xl text-2xl text-gray-500 font-bold">Experience</h3>
+            <div className="space-y-12 md:space-y-16">
                 <PreviousJob
                     props={{
                         name: "Stealth Startup",
@@ -50,6 +50,7 @@ function LeftSide() {
                         ]
                     }}
                 />
+
                 <PreviousJob
                     props={{
                         name: "Acorns",
@@ -64,6 +65,7 @@ function LeftSide() {
                         ]
                     }}
                 />
+
                 <PreviousJob
                     props={{
                         name: "Acorns",
@@ -79,12 +81,8 @@ function LeftSide() {
                     }}
                 />
             </div>
-            <div className="mt-20 flex text-[27px] text-black font-normal tracking-normal">
-                <p>References available upon request</p>
-                <div className="mx-3">|</div>
-                <p>felix@gmail.com</p>
-                <div className="mx-3">|</div>
-                <a href="tel: 123.456.7890">123.456.7890</a>
+            <div className="flex flex-wrap sm:mt-20 mt-14 md:text-2xl text-xl text-black font-normal">
+                <p className="mr-3">References available upon request</p>| <p className="mx-3">felix@gmail.com</p>|<p className="ml-3">123.456.7890</p>
             </div>
         </div>
     );

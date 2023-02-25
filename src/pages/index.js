@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import {Manrope} from '@next/font/google'
+
 import HeaderDescription from "@/components/HeaderDescription";
 import BodyDescription from "@/components/BodyDescription";
 
-const inter = Manrope({subsets: ['latin']})
 
 export default function Home() {
     return (
@@ -14,7 +13,7 @@ export default function Home() {
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <main className="h-[100vh]">
+            <main className="p-8 lg:px-16 xl:px-36 xl:pb-36 xl:pt-28">
                 <HeaderDescription/>
                 <BodyDescription/>
             </main>

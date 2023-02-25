@@ -8,16 +8,6 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontSize: {
-        h2: '6.25rem',
-        h3: '2.875rem'
-      },
-      colors: {
-        'dark_gray': '#323332',
-        'gray': '#939598',
-        'light_gray': '#C4C4C4',
-        'middle_gray': '#70706F',
-      },
       letterSpacing: {
         normal: '0.03em',
       },
@@ -27,5 +17,4 @@ module.exports = {
       }
     },
   },
-  plugins: [],
 }
